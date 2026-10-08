@@ -10,11 +10,11 @@ public class ArithmaticOperators {
 	int a = 3;
 	int b = 6;
 //	 
-//	System.out.println("Additions of 3 and 4 :" + (a+b));
-//	System.out.println("subtractions of 3 and 4 :" + (a-b));
-//	System.out.println("multiplications of 3 and 4 :" + (a*b));
-//	System.out.println("divisions of 3 and 4 : " + (a/b));
-//	System.out.println("modules of 3 and 4 :" + (a%b));
+	System.out.println("Additions of 3 and 4 :" + (a+b));
+	System.out.println("subtractions of 3 and 4 :" + (a-b));
+	System.out.println("multiplications of 3 and 4 :" + (a*b));
+	System.out.println("divisions of 3 and 4 : " + (a/b));
+	System.out.println("modules of 3 and 4 :" + (a%b));
 
 	
 //	System.out.println();
