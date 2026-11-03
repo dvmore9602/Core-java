@@ -2,6 +2,67 @@ package decisionMakingStatement;
 
 public class If_else_Statements {
 	public static void main(String[] args) {
+//	int age = 19; // age = 19 
+//		
+//		int age = 11; // age = 11
+//		
+//		
+//		if( age > 18 && age < 85) {  // check the conditions (age > 18 && age < 85) = ( true && true ) = true 
+//			                         // check the conditions (age > 18 && age < 85) = (false && true) = false
+//			System.out.println("you are eligible"); //print you are eligible
+//		}
+//		else {
+//			System.out.println("you are not eligible"); // print = you are not eligibles
+//		}
+//		
+////	Divisible by 5
+//		int number = 10; 
+////		number = 10 
+//			
+//			int number = 16;
+//			
+//			if (number % 5 == 0) {
+//				System.out.println("the number is divisible by 5");
+////				check the conditions (10 % 5 ==0) = 0 /true 
+//				//print the number divisible by 5
+//			}
+//			else {
+//				System.out.println("the number is not divisible by 5");
+//			}
+		
+		
+//		 Q1:-
+////    int number = 8;  // no = 8
+//		int number = 9;
+//		 
+//		 
+//		 if(number % 2 == 0) {    
+////		 check the conditions (no % 2 == 0) =  8 % 2 == 0  reminder = 0 this condition is true
+//			 
+////			  check the conditions (no % 2 == 0) = 9 % 2 = 1 reminder = 1 this condition is false / else block execute
+		
+//			 System.out.println(" number are even "); 
+////		print = number are even
+//		 }
+//		 else {
+//			 System.out.println("number are odd");    
+////		  print = number are odd
+//		 }
+		
+////		Q2:-
+//		
+//		int x = 10;   
+//		if (x > 5) {   
+////		 conditions = (10 > 5) = true
+//		    if (x > 15)  {
+////		 conditions = (10 > 15 ) = false  / else block execute 
+//		        System.out.println("A"); 
+//	}
+////		skip
+//		    else{
+//		        System.out.println("B"); 
+////		print =  B
+//	}
 
 		//// 1 Check positive or negative number.
 //		int n = 10;

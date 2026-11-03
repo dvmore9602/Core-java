@@ -2,6 +2,92 @@ package decisionMakingStatement;
 
 public class If_else_ladder {
 	public static void main(String[] args) {
+		
+//		
+//		// An if-else-if ladder is used when we need to check multiple conditions. Java checks the conditions 
+//		// from top to bottom and executes the first block whose condition is true.
+//
+////  Syntax :
+//		//if (condition1) {
+////		    // Code 1
+//		} else if (condition2) {
+////		    // Code 2
+//		} else if (condition3) {
+////		    // Code 3
+//		} else {
+////		    // Default code
+//		}
+//				
+//			
+//			int number = -2;
+//			if(number > 0) {
+//				System.out.println("Positive numbers ");
+//			}
+//			else if(number < 0) {
+//				System.out.println("negative number ");
+//			}
+//			else {
+//				System.out.println("Zero");
+//	}
+		
+////		middle no
+//		int a = 10;
+//		int b = 38;
+//		int c = 30;
+		
+//		if(a > b && a > c) {
+//			System.out.println("Print  is the values of  A ");
+//		}
+//		else if (b > a && b > c)  {
+//			System.out.println("Print is the values of  B");
+//		}
+//		else {
+//			System.out.println("Print the value of C");
+//		}
+//		
+//		
+//		if (a > b && a > c) {
+//			System.out.println("print  is the value of A");
+//		}
+//		else if ((b > a && b < c) || (b < a && b > c)) {
+//			System.out.println("print is the values of B");
+//		}
+//		else {
+//			System.out.println("print is the of C");
+//		}
+//	}
+
+
+
+// Dry run
+//  a = 10 , b =38 , c= 30
+// check the condition (10 > 38  && 10 > 30 ) = false && false = false
+// check the second conditions ( 38 > 10 && 38 < 30) || (38 < 10 && 38 > 30) = (true && false) || (false && true)
+//                                                                           = false || false = false 
+
+//  print is the c
+		
+//        int x = 10;
+//
+//        if (x > 20) {
+//            System.out.println("A");
+//        } 
+//        else if (x > 5) {
+//            System.out.println("B");
+//        } 
+//        else if (x > 0) {
+//            System.out.println("C");
+//        } 
+//        else {
+//            System.out.println("D");
+//        }
+//    }
+//
+////Dry run x = 10 
+////check the conditions (10 > 20 ) = false
+////check the conditions (10 > 5) = true 
+////print = B
+			
 //		
 ////	1)	Check positive, negative or zero.
 //		
@@ -510,25 +596,47 @@ public class If_else_ladder {
 		
 		
 		
-//		30	Check number range: 1–50, 51–100, 101–200 or above 200.
+////	30	Check number range: 1–50, 51–100, 101–200 or above 200.
+//		
+//		int num = 150;
+//
+//		if(num >= 1 && num <= 50) {
+//		    System.out.println("Between 1 and 50");
+//		}
+//		else if(num <= 100 && num > 50) {
+//		    System.out.println("Between 51 and 100");
+//		}
+//		else if(num <= 200 && num > 100) {
+//		    System.out.println("Between 101 and 200");
+//		}
+//		else if(num > 200) {
+//		    System.out.println("Above 200");
+//		}
+//		else {
+//		    System.out.println("Invalid Number");
+//		}
 		
-		int num = 150;
-
-		if(num >= 1 && num <= 50) {
-		    System.out.println("Between 1 and 50");
-		}
-		else if(num <= 100 && num > 50) {
-		    System.out.println("Between 51 and 100");
-		}
-		else if(num <= 200 && num > 100) {
-		    System.out.println("Between 101 and 200");
-		}
-		else if(num > 200) {
-		    System.out.println("Above 200");
-		}
-		else {
-		    System.out.println("Invalid Number");
-		}
+//		No.	Practice program
+//		31	Check whether a number is one-digit, two-digit, three-digit or more than three digits.
+//		32	Find the middle number among three numbers.
+//		33	Find the second smallest among three numbers.
+//		34	Check whether a number is divisible by 2, 3, 5 or 7 and identify the first matching divisor.
+//		35	Check whether a number is prime, composite or neither.
+//		36	Check whether a number is palindrome or not.
+//		37	Check whether a number is Armstrong or not.
+//		38	Check whether a number is perfect or not.
+//		39	Check whether a number is strong or not.
+//		40	Check whether a number is Harshad or not.
+//		41	Check whether a number is Spy or not.
+//		42	Check whether a number is Neon or not.
+//		43	Check whether a number is Automorphic or not.
+//		44	Check whether a number is a Duck number or not.
+//		45	Check whether a number is a special two-digit number or not.
+//		46	Check whether a number is a palindrome, even or odd.
+//		47	Check whether a student is eligible for scholarship using marks and income.
+//		48	Calculate salary grade using basic salary.
+//		49	Calculate tax based on annual income.
+//		50	Create a simple calculator using if-else-if ladder.
 	}
 
 }

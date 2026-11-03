@@ -3,6 +3,15 @@ package decisionMakingStatement;
 public class If_Statments {
 
 	public static void main(String[] args) {
+		
+		int age = 26;   // age = 26 
+//		int age = 16;   // age 16 
+//		
+////		 coditions is the false  this is not print
+		
+		if(age > 18) {  //check the condition  age > 18 = true
+			System.out.println("you are eligible ");  // print = you are eligible
+		}
 
 		//// 1) age print
 //		int age = 26;   // age = 26 
