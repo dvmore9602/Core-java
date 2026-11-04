@@ -68,9 +68,8 @@ public class Nested_if_else_Statement {
 //				System.out.println("Negative Number");
 //			}
 		//// } Level 1: Basic Programs (1–15) / 1. Check whether a number is positive or
-		/// negative. If positive, check whether it is even or odd. using the
-		/// Scanner class
-		/// 
+		/// negative. If positive, check whether it is even or odd.
+		///  using the Scanner class 
 		/// 
 //		Scanner sc = new Scanner(System.in);
 //		System.out.println("Enetr the number : ");
@@ -326,6 +325,7 @@ public class Nested_if_else_Statement {
 		    
 		
 //		12. Check whether a number is a single-digit or double-digit number. If double-digit, check whether it is positive or negative.
+		
 //		13. Check whether a temperature is hot or cold. If hot, check whether it is extremely hot.
 //		14. Check whether a student is eligible for an exam based on attendance (75%). If eligible, check whether fees are paid.
 //		15. Check whether a number is within the range 1–100. If yes, check whether it is even or odd.
