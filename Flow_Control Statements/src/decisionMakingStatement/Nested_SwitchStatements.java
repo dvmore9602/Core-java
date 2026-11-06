@@ -56,7 +56,7 @@ public class Nested_SwitchStatements {
 
 //		2. Main menu and submenu.
 		
-		Scanner sc = new Scanner(System.in);
+//		Scanner sc = new Scanner(System.in);
 		
 		
 //		3. Restaurant menu and food selection.
